@@ -175,9 +175,11 @@ public class SandboxApplication {
 }
 ```
 
-Classes marked with the @Controller annotation indicates that the class contains method for handling incoming requests to the server, and Spring takes the responsibility for redirecting requests to the class methods.
+Classes marked with the **@Controller** annotation indicates that the class is a Spring controller and contains method for handling incoming requests to the server, and Spring takes the responsibility for redirecting requests to the class methods.
 
-The annotation @GetMapping is used to define the path to be listened to and the request type of the HTTP protocol. All GET requests are routed to that method because @GetMapping has an additional parameter defined by *****. Instead of an asterisk, we can also make use of a path. If we make use of a path, then the requests to the web server address will be routed to the method the annotation is in. In the example below, if we try to access /path, we will be greeted with a string "Path /path!". Multiple paths can also be defined for a single program.
+The annotation **@GetMapping** is used to define the path to be listened to and the request type of the HTTP protocol is GET. All GET requests are routed to that method because @GetMapping has an additional parameter defined by *****. Instead of an asterisk, we can also make use of a path. If we make use of a path, then the requests to the web server address will be routed to the method the annotation is in. In the example below, if we try to access /path, we will be greeted with a string "Path /path!". Multiple paths can also be defined for a single program.
+
+The **@ResponseBody** annotation is for annotating request handler methods. It indicates that the result type should be written straight into the response body. In other words, it binds the return value to the response body.
 
 ```java
 @Controller
@@ -199,7 +201,7 @@ public class HelloPathController {
 
 ##### Request parameters
 
-Information can be sent over the server as request parameters. Parameters are added to the request by adding a question mark after the address, followed by the parameter name, equals symbol, and the value assigned to the parameter. Parameters in the request can be accessed using the **@RequestParam** annotation. In the example below, the request has a parameter named animal whose value is dog.
+Information can be sent over the server as request parameters. Parameters are added to the request by adding a question mark after the address, followed by the parameter name, equals symbol, and the value assigned to the parameter. Parameters in the request can be accessed using the **@RequestParam** annotation. This annotation is used to annotate request handler method arguments. In the example below, the request has a parameter named animal whose value is dog.
 
 ```
 https://localhost:8080/secret?animal=dog
