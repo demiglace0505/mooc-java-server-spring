@@ -1,6 +1,8 @@
 # [Web Server Programming Java, 2021](https://web-palvelinohjelmointi-21.mooc.fi/)
 
-Web Server Programming Java is an online course from the University of Helsinki that teaches the basics of web server programming. The course takes approximately 135 hours to finish, and consists of seven parts. The competence objectives of this course are as follows:
+Web Server Programming Java is an online course from the University of Helsinki that teaches the basics of web server programming. The course takes approximately 135 hours to finish, and consists of seven parts. Just like [Java Programming](https://java-programming.mooc.fi/) MOOC, this course also features interactive activities and makes use of Netbeans or IntelliJ with TMC plugin for submitting exercises.
+
+The competence objectives of this course are as follows:
 
 | **Part** |                          **Topic**                           |                   **Competence Objective**                   |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: |

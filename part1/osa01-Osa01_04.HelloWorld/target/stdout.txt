@@ -1,0 +1,122 @@
+20:57:36.614 [TestRunner thread] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class helloworld.HelloWorldTest]
+20:57:36.650 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:57:36.690 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:57:37.005 [TestRunner thread] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [helloworld.HelloWorldTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:57:37.092 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [helloworld.HelloWorldTest], using SpringBootContextLoader
+20:57:37.123 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [helloworld.HelloWorldTest]: class path resource [helloworld/HelloWorldTest-context.xml] does not exist
+20:57:37.126 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [helloworld.HelloWorldTest]: class path resource [helloworld/HelloWorldTestContext.groovy] does not exist
+20:57:37.127 [TestRunner thread] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [helloworld.HelloWorldTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:57:37.129 [TestRunner thread] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [helloworld.HelloWorldTest]: HelloWorldTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:57:37.401 [TestRunner thread] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [helloworld.HelloWorldTest]
+20:57:37.696 [TestRunner thread] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\doge\Documents\mooc\mooc-wepa-21\osa01-Osa01_04.HelloWorld\target\classes\helloworld\HelloWorldApplication.class]
+20:57:37.750 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration helloworld.HelloWorldApplication for test class helloworld.HelloWorldTest
+20:57:38.301 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [helloworld.HelloWorldTest]: using defaults.
+20:57:38.303 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:57:38.380 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+20:57:38.384 [TestRunner thread] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+20:57:38.385 [TestRunner thread] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@60bcb766, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5d590a2b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d386cf8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@561a2273, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5398a851, org.springframework.test.context.event.EventPublishingTestExecutionListener@4685e85b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28b403df, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2f3aa500, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@39f65a96, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50d8aac3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@587ae1fc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@22924d56]
+20:57:38.414 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [helloworld.HelloWorldTest]
+20:57:38.428 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [helloworld.HelloWorldTest]
+20:57:38.432 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [helloworld.HelloWorldTest]
+20:57:38.434 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [helloworld.HelloWorldTest]
+20:57:38.477 [TestRunner thread] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@26ab8251 testClass = HelloWorldTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6b767ffa testClass = HelloWorldTest, locations = '{}', classes = '{class helloworld.HelloWorldApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@4401aa3d key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4d71eea1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@63b0f9f2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@da554a3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3c3e644f, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+20:57:38.493 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [helloworld.HelloWorldTest]
+20:57:38.494 [TestRunner thread] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [helloworld.HelloWorldTest]
+20:57:38.701 [TestRunner thread] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.2.RELEASE)
+
+2021-08-26 20:57:40.432  INFO 3608 --- [stRunner thread] helloworld.HelloWorldTest                : Starting HelloWorldTest on g460 with PID 3608 (started by doge in C:\Users\doge\Documents\mooc\mooc-wepa-21\osa01-Osa01_04.HelloWorld)
+2021-08-26 20:57:40.438  INFO 3608 --- [stRunner thread] helloworld.HelloWorldTest                : No active profile set, falling back to default profiles: default
+2021-08-26 20:57:47.116  INFO 3608 --- [stRunner thread] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-26 20:57:48.925  INFO 3608 --- [stRunner thread] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-26 20:57:48.926  INFO 3608 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-26 20:57:49.211  INFO 3608 --- [stRunner thread] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 284 ms
+2021-08-26 20:57:49.489  INFO 3608 --- [stRunner thread] helloworld.HelloWorldTest                : Started HelloWorldTest in 10.633 seconds (JVM running for 15.572)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloworld.HelloWorldController
+           Method = helloworld.HelloWorldController#home()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"12"]
+     Content type = text/plain;charset=UTF-8
+             Body = Hello world!
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2021-08-26 20:57:51.374  INFO 3608 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [helloworld.HelloWorldTest], using SpringBootContextLoader
+2021-08-26 20:57:51.377  INFO 3608 --- [stRunner thread] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [helloworld.HelloWorldTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-26 20:57:51.378  INFO 3608 --- [stRunner thread] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [helloworld.HelloWorldTest]: HelloWorldTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-26 20:57:51.388  INFO 3608 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration helloworld.HelloWorldApplication for test class helloworld.HelloWorldTest
+2021-08-26 20:57:51.396  INFO 3608 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-26 20:57:51.399  INFO 3608 --- [stRunner thread] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@416740ed, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@645f5406, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@9a1fbe0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@547f5138, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2fe40372, org.springframework.test.context.event.EventPublishingTestExecutionListener@31059dec, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@377d1ed7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@19a57f91, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16551044, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@ba2059f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54f6299a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@669d9d62]
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /169e876b-17be-4544-a3c7-c5bd3e696b5d
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = helloworld.HelloWorldController
+           Method = helloworld.HelloWorldController#home()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"12"]
+     Content type = text/plain;charset=UTF-8
+             Body = Hello world!
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2021-08-26 20:57:52.418  INFO 3608 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
