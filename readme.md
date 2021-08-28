@@ -2,6 +2,12 @@
 
 Web Server Programming Java is an online course from the University of Helsinki that teaches the basics of web server programming. The course takes approximately 135 hours to finish, and consists of seven parts. Just like [Java Programming](https://java-programming.mooc.fi/) MOOC, this course also features interactive activities and makes use of Netbeans or IntelliJ with TMC plugin for submitting exercises.
 
+### Directory Structure
+
+Each part of the course is divided into its own subdirectory, (part#). Within each directory, there is a **readme** markdown which highlights my key takeaways, notes, processes, and reflections for that part.
+
+### Competence Objectives
+
 The competence objectives of this course are as follows:
 
 | **Part** |                          **Topic**                           |                   **Competence Objective**                   |
