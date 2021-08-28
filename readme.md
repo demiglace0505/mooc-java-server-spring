@@ -4,7 +4,7 @@ Web Server Programming Java is an online course from the University of Helsinki 
 
 ### Directory Structure
 
-Each part of the course is divided into its own subdirectory, (part#). Within each directory, there is a **readme** markdown which highlights my key takeaways, notes, processes, and reflections for that part.
+Each part of the course is divided into its own subdirectory, (part#). My solutions for the exercises are located in each subdirectory, and there is a also a **readme** file which highlights my key takeaways, notes, processes, and reflections for that part.
 
 ### Competence Objectives
 
