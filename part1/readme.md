@@ -1,12 +1,13 @@
 # [Part 1 - Introduction to the operation of web apps and the basics of the Internet](https://web-palvelinohjelmointi-21.mooc.fi/osa-1)
 
-Objectives:
-
-- Familiar with the concepts of URI, DNS, HTTP and HTML
-- Familiar with the main methods of HTTP protocol GET and POST
-- Understand what the client-server model means
-- Able to implement a simple server and browser in Java
-- Create multiple web applications that respond to requests using the Spring API
+> Key Takeaways:
+>
+> - Familiar with the concepts of URI, DNS, HTTP and HTML
+> - Familiar with the main methods of HTTP protocol GET and POST
+> - Understand what the client-server model means
+> - Able to implement a simple server and browser in Java
+> - Create multiple web applications that respond to requests using the Spring API
+>
 
 ____
 
